@@ -3,14 +3,14 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
 
-    <meta property="og:url" content="http://localhost/SARASOTA/">
-    <meta property="og:image" content="http://localhost/SARASOTA/userFiles/a/1/6/0/0/1/3/fb-logo.png">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="userFiles/a/1/6/0/0/1/3/fb-logo.png">
     <meta property="og:title" content="Visit Sarasota County">
     <meta property="og:description" content="Take the Visitor Navigator with you as you explore our destination from your mobile device.">
     <meta property="og:site_name" content="footguides.com">
 
     <title>Local Explorer</title>
-    <link rel="SHORTCUT ICON" href="http://localhost/SARASOTA/material/img/favicon.ico">
+    <link rel="SHORTCUT ICON" href="material/img/favicon.ico">
 
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css" media="screen,projection">
@@ -19,9 +19,9 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet" type="text/css">
-    
+
     <!-- Scott's custom css -->
-    <link href="http://localhost/SARASOTA/material/css/style.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="material/css/style.css" type="text/css" rel="stylesheet" media="screen,projection">
 
     <!-- load map -->
     <script>window.onload = function() { load(); }; //this calls the load function in map.js and kicks off geolocation</script>
@@ -78,7 +78,7 @@ nh - js vars for map functions
 
     {"workpad_id":"1064791","workpad_key":"umMt3xtAcp7BfYuXX6IgWG","type":"service","category_id":"2","name":"Square 1 Burgers and Bar (Tamiam","comment":"","icon":"","neighbourhood_id":null,"pano_id":"","end_date":null,"count_deals":"0","count_booklets":"0","count_notifications":"0","account_paid":"0","lat":"27.93781400","lng":"-82.46784600","street":"704 W. Bay St."},
 
-    
+
 
     {"workpad_id":"1064968","workpad_key":"n8eDcN0kSmGwO0GFrrBNSf","type":"service","category_id":"4","name":"The Founders Golf Club","comment":"","icon":"","neighbourhood_id":null,"pano_id":"","end_date":null,"count_deals":"0","count_booklets":"0","count_notifications":"0","account_paid":"0","lat":"27.93346410","lng":"-82.81452580","street":"3800 Golf Hall Drive"},
 
@@ -196,7 +196,7 @@ nh - js vars for map functions
 
     "type":"service","category_id":"4","name":"Live Music by the bay","comment":"","icon":"","neighbourhood_id":"1","pano_id":"","end_date":null,"count_deals":"0","count_booklets":"0","count_notifications":"0","account_paid":"3","lat":"27.38291740","lng":"-82.56454470","street":"5401 Bay Shore Road"},{"workpad_id":"1066985","workpad_key":"0ceba70751207358385366",
 
-    
+
 
     "type":"service","category_id":"4","name":"Artist Series Concerts","comment":"","icon":"_large.png","neighbourhood_id":"1","pano_id":"","end_date":null,"count_deals":"0","count_booklets":"0","count_notifications":"0","account_paid":"1","lat":"27.38291740","lng":"-82.56454470","street":"5401 Bay Shore Road"},{"workpad_id":"1066986","workpad_key":"f13f14fe8d2077f371c840",
 
@@ -870,7 +870,7 @@ nh - js vars for map functions
     var withinDestination = false;
     var admin = '';
     var account_id = 160013;
-    var imgMarkerDir = 'http://localhost/SARASOTA/img/markers/';
+    var imgMarkerDir = 'img/markers/';
     var imgMarkerDefaultIcon = '_default.png';
     var imgMarkerDefaultEnhanced = '_large.png';
     var imgFav = 'mdi-action-favorite pink-text';//"mdi-action-favorite pink-text";//"/img/material/star.svg";
@@ -893,7 +893,7 @@ LOADING Div
         <div class="row center-xs">
             <div class="col-xs">
                 <div class="box">
-                    <img src="http://localhost/SARASOTA/material/img/circle-footguides.png">
+                    <img src="material/img/circle-footguides.png">
                 </div>
             </div>
         </div>
@@ -970,7 +970,7 @@ TOP Toolbar
     <div class="navbar-fixed" style="z-index: 9999; height: 44px; line-height: 44px;">
         <!-- Dropdown Structure top right corner 3 dot More Button -->
 
-        
+
 
 
         <nav class="blue-grey darken-3 adjust-sidenav" role="navigation" style=" height: 44px; line-height: 44px;">
@@ -981,11 +981,11 @@ TOP Toolbar
                         <li class="left button-collapse hide-on-large-only" data-activates="slide-out">
                             <i class="mdi-navigation-arrow-back hide-on-large-only" style="padding: 0 0 0 10px; height: 44px; line-height: 44px;"></i>
                         </li>
-                         
+
                         <li class="left hide-on-med-and-down modal-trigger" href="#gallery" data-force="1" data-server-data="{&quot;account_id&quot;: &quot;160013&quot;}">
                             <i class="large mdi-action-search" style="padding-left: 20px; padding-right: 20px; height: 44px; line-height: 44px;"></i>
                         </li>
-                        
+
                         <li class="left">
                             <div id="" href="#" class="placesButton button-collapse left hide-on-large-only" data-activates="slide-out" style="font-size: 1.2rem; padding-left: 10px; padding-right: 10px;height: 44px; line-height: 44px;">Países</div>
                         </li>
@@ -1022,7 +1022,7 @@ TOP Toolbar
                     ****************************************************************************************************************-->
 
                     <!-- Dropdown Structure neighbourhood -->
-                    
+
 
                     <ul id="slide-out" class="side-nav fixed" style="width: 330px;">
 
@@ -1065,17 +1065,17 @@ TOP Toolbar
 
                             <li style="padding: 0;">
 
-                                                                
+
 
                                 <div class="card side-nav-card" style="">
                                     <div class="card-image card-image-drawer waves-effect waves-block waves-light">
 
-                                        <div class="action-nbhdimg-data neighbor-image" style="box-shadow: rgba(0, 0, 0, 0.37) 0px 6px 6px 0px inset; background: url(&quot;http://localhost/SARASOTA/userFiles/a/1/6/0/0/1/3/neighbourhood/splash_image_all.jpg&quot;) center center no-repeat;"></div>
-                                    
+                                        <div class="action-nbhdimg-data neighbor-image" style="box-shadow: rgba(0, 0, 0, 0.37) 0px 6px 6px 0px inset; background: url(userFiles/a/1/6/0/0/1/3/neighbourhood/splash_image_all.jpg) center center no-repeat;"></div>
+
                                     </div>
-                                    
+
                                     <a class="action-sidenav-hideonsmall btn-floating btn-large waves-effect waves-circle waves-light green right split hide-on-large-only"><i class="" style="margin-left: -15px; font-size: 1rem; font-style: normal;">GO</i></a>
-                                    
+
 
 
                                     <div class="card-content"><!-- card-content class opens  card-reveal class - only one per DOM - this is for nbhd desc  class="action-nbhddesc-data description activator" style=""-->
@@ -1102,9 +1102,9 @@ TOP Toolbar
 
 
                                                 <div class="col-xs-12" style="text-align: center;">
-                                                        <img class="responsive-img" src="http://localhost/SARASOTA//userFiles/a/1/6/0/0/1/3/logo.svg">
-                                                    
-                                                </div>                  
+                                                        <img class="responsive-img" src="userFiles/a/1/6/0/0/1/3/logo.svg">
+
+                                                </div>
 
                                             </div>
 
@@ -1123,7 +1123,7 @@ TOP Toolbar
                                     <!-- End of Neighborhood Description -->
 
                                     <!-- Notification List -->
-                                    <!-- 
+                                    <!--
                                     <div id="notification-drawer" class="action-drawer sb-drawer-list" style="z-index: 99;color: #212121; overflow-y:hidden;" data-drawer-type="notification">
 
 
@@ -1173,13 +1173,13 @@ TOP Toolbar
                 </div>
             </div>
 
-        
+
             <div class="row list">
                 <div class="col-xs-3 center-xs list-marker">
-                    <div class="box  action-marker-goto " style="padding-top: 10px;" data-workpad-key="5s3rdUiOBxCb5YHF06obmY"><img src="http://localhost/SARASOTA/img/markers/things_to_do/theatre.png"></div>
-                         
+                    <div class="box  action-marker-goto " style="padding-top: 10px;" data-workpad-key="5s3rdUiOBxCb5YHF06obmY"><img src="img/markers/things_to_do/theatre.png"></div>
 
-                    
+
+
                 </div>
 
                 <div class="col-xs list-description">
@@ -1192,7 +1192,7 @@ TOP Toolbar
                                                             </p>
                                                 <p class="pointer description-distance action-draweritem-description  action-marker-goto " style="margin-top: 6px;" data-workpad-key="5s3rdUiOBxCb5YHF06obmY">You don't want to miss Sarasota Opera's linenup for the 2016-17 Season, with Donizetti's delightful Don Pasquale in the fall, and works by Puccini, Rossini, Poulenc and Montemezzi in the Winter Festival. A 4-opera subscription starts at only $69. Get your season tickets today!</p>
 
- 
+
 
                     </div>
                 </div>
@@ -1303,14 +1303,14 @@ Map Container
                                                                 <li class="waves-effect waves-light action-category-change  hidden " data-category-id="18" data-label="Service">
                                       <a class="item white-text" data-value="18" data-toast-message="Service">Service</a>
                                   </li>
-                              
+
                           </ul>
 
 
-                           
+
 <!--                      </div>
 -->
-                    
+
 
                     </div>
                 </div>
@@ -1334,10 +1334,10 @@ Directions Address Container - appears over top of categories top nav bar when d
             <div class="card-details">
                 <span class="hide-on-small-only action-directions-showsteps action-address-data waves-effect waves-deep-purple btn-flat no-margin left"> </span>
                 <span class="hide-on-med-and-up action-address-data waves-effect waves-deep-purple btn-flat no-margin left"> </span>
-                
+
                 <span class="hide-on-small-only action-directions-showsteps action-directionsdistance-data left btn-flat green white-text" style="padding: 0 5px;"></span>
                 <span class="hide-on-med-and-up action-directionsdistance-data left btn-flat green white-text" style="padding: 0 5px;"></span>
-                
+
 
                 <span class="action-directions-cancel right btn-flat waves-effect waves-dark no-margin"><i class="mdi-navigation-cancel green-text" style="font-size: 2.2rem;"></i></span>
             </div>
@@ -1414,7 +1414,7 @@ Map Bottom Toolbar
                     <!--
                     <div class="col-xs deep-purple center-align">
                        <div class="action-notification-on box waves-effect waves-light tooltipped" data-position="top" data-delay="50" data-tooltip="What's Happening" onclick="Materialize.toast('Showing Announcements', 3000)"><i class="mdi-action-event purple-text text-lighten-4 bottom-icons"></i>happening</div>
-                    </div> 
+                    </div>
                     -->
                     <div class="col-xs orange center-align">
                         <div class="action-deal-on box waves-effect waves-light tooltipped" data-position="top" data-delay="50" data-tooltip="Local Offers" onclick="Materialize.toast('Showing deals', 3000)"><i class="material-icons orange-text text-lighten-4 bottom-icons">announcement</i> updates</div>
@@ -1510,13 +1510,13 @@ Mobile small screen Bottom close deals
 
 <!--nh trying to import newer isotope for newer jquery - dont' know if this will break other isotope stuff-->
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.0/isotope.pkgd.js"></script>
-<script src="http://localhost/SARASOTA/isotope/imagesloaded.pkgd.js" type="text/javascript"></script>
+<script src="isotope/imagesloaded.pkgd.js" type="text/javascript"></script>
 
 <!-- clamp.js lib for clamping neighbourhood desription -->
-<script src="http://localhost/SARASOTA/javascripts/clamp.js"></script>
+<script src="javascripts/clamp.js"></script>
 
 <!-- Scott's custom js for materialize ui functions-->
-<script type="text/javascript" src="http://localhost/SARASOTA/material/js/sb-custom.js"></script><div class="drag-target" style="left: 0px; touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div><div class="drag-target" style="left: 0px; touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div>
+<script type="text/javascript" src="material/js/sb-custom.js"></script><div class="drag-target" style="left: 0px; touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div><div class="drag-target" style="left: 0px; touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div>
 
 
 <!-- google maps api -->
@@ -1524,15 +1524,15 @@ Mobile small screen Bottom close deals
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/js-marker-clusterer/1.0.0/markerclusterer_compiled.js"></script>
 
 
-<script type="text/javascript" src="http://localhost/SARASOTA/global_utils.js.php"></script>
-<script type="text/javascript" src="http://localhost/SARASOTA/js/jquery.form.js"></script>
-<script type="text/javascript" src="http://localhost/SARASOTA/rdp_utils.php"></script>
-<script type="text/javascript" src="http://localhost/SARASOTA/javascripts/jquery.foundation.all.min.js"></script>
-<script type="text/javascript" src="http://localhost/SARASOTA/js/gallery.js"></script>
-<script type="text/javascript" src="http://localhost/SARASOTA/js/dashboard.js"></script>
-<script type="text/javascript" src="http://localhost/SARASOTA/js/favourites.js"></script>
-<script type="text/javascript" src="http://localhost/SARASOTA/js/map.js"></script>
-<script type="text/javascript" src="http://localhost/SARASOTA/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="global_utils.js.php"></script>
+<script type="text/javascript" src="js/jquery.form.js"></script>
+<script type="text/javascript" src="rdp_utils.php"></script>
+<script type="text/javascript" src="javascripts/jquery.foundation.all.min.js"></script>
+<script type="text/javascript" src="js/gallery.js"></script>
+<script type="text/javascript" src="js/dashboard.js"></script>
+<script type="text/javascript" src="js/favourites.js"></script>
+<script type="text/javascript" src="js/map.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
 <script>
 var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-56337663-1']);
